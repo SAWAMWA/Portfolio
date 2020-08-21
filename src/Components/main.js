@@ -3,10 +3,7 @@ import React, { Component } from 'react'
 
 import samuel from './../assets/samuel.png';
 import { HashLink as Link} from 'react-router-hash-link'
-import { BrowserRouter as Router,
-    Route, 
-    Switch, 
-    Redirect} from 'react-router-dom' 
+import { BrowserRouter as Router  } from 'react-router-dom' 
 
 
 class Main  extends Component {
@@ -18,7 +15,7 @@ class Main  extends Component {
             <div className='home-main-section' id={'main'}>
                 <div className='image-wraper'>
                     
-                <img src={samuel}/>
+                <img src={samuel} alt='SAM'/>
 
                 </div>
                 <div className=' call-to-action'>
