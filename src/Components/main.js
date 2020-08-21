@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header'
+
 
 import samuel from './../assets/samuel.png';
 import { HashLink as Link} from 'react-router-hash-link'
