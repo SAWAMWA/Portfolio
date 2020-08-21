@@ -11,9 +11,9 @@ class Header extends Component {
             <Router>
             <div className ='container'>
             <div className='header'>
-                <a className='brand-logo'>
+                <button className='brand-logo'>
                  <div className=' brand-logo-name'>SAMUEL</div>
-                </a>
+                </button>
                 <nav className='main-nav'>
                     <ul>
                         <li><Link to='/Main/#main'>Home</Link></li>
