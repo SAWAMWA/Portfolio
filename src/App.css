@@ -111,10 +111,10 @@ hr{
 }
 
 @media(max-width: 750px){
-  .home-main-section, .about-main-section,.contact, form{
+  .home-main-section, .about-main-section, .about-me-section, .project-section, .contact-me-section   .contact, form{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 149vh;
     
   }
 
