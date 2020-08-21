@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Header from './Header'
+
 
  class About extends Component {
     render() {
         return (
-        <div>
-            <Header/>
+        <section className=' about-me-section' id='section1'>
+            
             <div className='about-header'>
                 <h1>About me</h1>
              </div> 
@@ -19,18 +19,22 @@ import Header from './Header'
                     </span>
                 </div>
 
-                <div className='stack-skills'>
+                <div className='main-stack-skills'>
                     <h2>Tech stack</h2>
-                    <h4>HTML5 / CSS   </h4>
-                    <h4>Javascript / React</h4>
-                    <h4> MYSQL</h4>
-                    <h4>Python / Django</h4>
-                    <h4>FIGMA</h4>
-
+                    <div className='stack-skills'>
+                        <ul className='skills'>
+                            <li>HTML5 / CSS</li>
+                            <li>Javascript / React</li>
+                            <li>MYSQL</li>
+                            <li>Python / Django</li>
+                            <li>FIGMA</li>
+                        </ul>
+                    </div>  
+                        
                 </div>
             </div>
 
-        </div>
+        </section>
         )
     }
 }

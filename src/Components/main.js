@@ -1,26 +1,37 @@
 import React, { Component } from 'react'
-import About from './About'
 import Header from './Header'
+
+import samuel from './../assets/samuel.png';
+import { HashLink as Link} from 'react-router-hash-link'
+import { BrowserRouter as Router,
+    Route, 
+    Switch, 
+    Redirect} from 'react-router-dom' 
+
 
 class Main  extends Component {
     render() {
         return (
-           <div>
-               <Header/>
-          
-            <div className='home-main-section'>
+        
+          <Router>
+              
+            <div className='home-main-section' id={'main'}>
                 <div className='image-wraper'>
-                    <div className='my-image'></div>
+                    
+                <img src={samuel}/>
+
                 </div>
                 <div className=' call-to-action'>
-                    <h1 className='my-name'>Samuel W. Mwangi - Profile</h1>
-                    <h2 className='title'> Web App Developer</h2>
+                    <h3 className='my-name'>Samuel W. Mwangi</h3>
+                    <h3 className='title'> Web App Developer</h3>
                     <span className= 'subtitle'>Frontend and Backend developer who is focused on writting clean code </span>
-                    <a href='#' className='btn'>Contacts</a>
+                    <Link to='Contact/#contact' className='btn'>Contacts</Link>
+                 
                 </div>
              
             </div>
-         </div>
+            </Router>
+        
           
         )
     }

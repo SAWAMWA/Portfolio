@@ -1,13 +1,13 @@
 import React from 'react';
 
+
 import './App.css';
-import Main from './Components/main'
-import About from './Components/About';
+import Singlepage from './Components/Singlepage'
 
 function App() {
   return (
     <div className="App">
-     <Main/>
+     <Singlepage/>
     
     </div>
   );
