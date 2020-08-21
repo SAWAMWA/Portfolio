@@ -115,10 +115,21 @@ hr{
     display: flex;
     flex-direction: column;
     height: 149vh;
+    align-items: center;
     
   }
+ 
+}
+
+@media(max-width: 750px){
+  .my-story{
+    display: flex;
+    flex-direction: column;
+    
+    }
 
 }
+
 
 .home-main-section .image-wraper{
   display: flex;
@@ -172,14 +183,14 @@ justify-content: space-around;
   padding: 10px;
 }
 
-.my-story{
-width: 50%;
-}
+
 
 main.stack-skills{
 display: flex;
   
 }
+
+
 
 .stack-skills{
   display: flex;
