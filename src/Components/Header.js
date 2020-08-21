@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import logo from './../assets/logo.png';
-import Main from './main'
+
+
 
 import { HashLink as Link} from 'react-router-hash-link'
-import { BrowserRouter as Router,
-    Route, 
-    Switch, 
-    Redirect} from 'react-router-dom' 
+import { BrowserRouter as Router} from 'react-router-dom' 
 
 class Header extends Component {
     render() {
