@@ -19,7 +19,7 @@ class Main  extends Component {
 
                 </div>
                 <div className=' call-to-action'>
-                    <h3 className='my-name'>Samuel W. Mwangi</h3>
+                    <h2 className='my-name'>Samuel W. Mwangi</h2>
                     <h3 className='title'> Web App Developer</h3>
                     <span className= 'subtitle'>Frontend and Backend developer who is focused on writting clean code </span>
                     <Link to='Contact/#contact' className='btn'>Contacts</Link>
