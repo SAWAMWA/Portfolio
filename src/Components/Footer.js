@@ -6,15 +6,15 @@ import {Navbar, Nav} from 'react-bootstrap'
  function Footer() {
     return (
         <Router>
-        <Navbar bg="success">
+        <Navbar bg="success" expand='lg'>
                 <Navbar.Brand style={{color:'#ffff'}} >
-                    @ Samuel Mwangi 2020 |
+                    <small>@SamuelMwangi 2020 |</small>
                     <Link to='/Main/#main' className='btn'><span>Home</span></Link> 
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           
-            <Navbar.Collapse>
+            <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className= "justify-content-end"  style={{width:'100%'}} >
                   <Nav.Link style={{color:'#ffff'}} href ='https://web.facebook.com/samuel.w.mwangi/'>Facebook</Nav.Link>
                   <Nav.Link style={{color:'#ffff'}} href ='https://www.linkedin.com/in/samuel-w-mwangi-63676a38/'>Linkend</Nav.Link>
