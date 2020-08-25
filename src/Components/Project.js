@@ -24,8 +24,8 @@ class Project extends Component {
                         <Nav>
                             <Nav.Link href='https://farmers-edge.netlify.app/'>
                                 <img src={farmedge}  className='d-block mx-auto img-fluid w-50'  alt='FarmEdge'  />
-                                <span>A solution that is designed to assist farmers to market
-                                     and sell their produde. it link farmers to consumer</span>
+                                <p>A solution that is designed to assist farmers to market
+                                     and sell their produde. it link farmers to consumer</p>
                             </Nav.Link>
                         </Nav> 
                     </Col>
@@ -33,7 +33,7 @@ class Project extends Component {
                         <Nav>
                             <Nav.Link href=' https://sawamwa.github.io/Covid-estimator/'>
                                 <img src={covid} className='d-block mx-auto img-fluid w-50'  alt='Covid-Estimator' />
-                                <span>This is a solution aimed to assist the government in preparedness to fight Covid-19 pandemic  </span>
+                                <p>This is a solution aimed to assist the government in preparedness to fight Covid-19 pandemic  </p>
                             </Nav.Link>
                         </Nav>
                     </Col>
@@ -41,7 +41,7 @@ class Project extends Component {
                     <Nav>
                             <Nav.Link href=' #'>
                                 <img src={logo.png} className='d-block mx-auto img-fluid w-50'  alt='Profile'  />
-                                <span>My portfolio</span>
+                                <p>My portfolio</p>
                                 <p>Under Construction</p>
                             </Nav.Link>
                         </Nav>
