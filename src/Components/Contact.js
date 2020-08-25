@@ -1,54 +1,67 @@
 import React, { Component } from 'react'
 import Footer from './Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {Button, Form, Container, Row, Col } from 'react-bootstrap'
 
  class Contact extends Component {
     render() {
         return (
-            <section className=' contact-me-section' id ={'contact'}>
+            <Container>
+            <Row className="justify-content-xx-center"  xs={1} sm={1} md={1} id ={'contact'}>
               
-               <div className='contact-header'> 
-               <u> <h1>CONTACT ME</h1></u>
+               <div className='m-auto text-center '> 
+                    <Col> <h1 style={{color:' rgb(226, 8, 179)'}}><u>Contact</u> Me</h1></Col> 
                 </div>
-           <div className='contact'>
-               <div className='adress-sec'>
-                   <h4>P.O Box 2 Gikoe Muranga</h4>
-                   <p>Phone: 0725347787</p>
+           <Row xs={1} sm={2} md={2}>
+
+               <Col className='m-auto text-center' md={6}>
+                   <div><label>Contact Information:</label></div> 
+                   <h4>P.O Box 2 10213 Murang'a</h4>
+                   <p>Phone: +254725347787</p>
                    <p>Email: smlmwangi@gmail.com</p>
-               </div>
+                   <p>Website:https://samuelmwangi.netlify.app/ </p>
+               </Col>
                
-               <div  className= 'form'>
-                   <div><label>Contact Information:</label></div>
+               <Col className='m-auto' md={6}>
+                   
+                   <Form className='m-auto'  md={12} >
+                   <Row xs={1} md={2} >
+                         <Col className ='' md={12}>
+                               <Form.Group  controlId='FormcontrolInput'>
+                                    <Form.Label>First Name:</Form.Label>
+                                    <Form.Control type='text' placeholder='First Name'></Form.Control>
+                                </Form.Group>
+                                <Form.Group   controlId='FormcontrolInput'>
+                                    <Form.Label>Last Name:</Form.Label>
+                                    <Form.Control type='text' placeholder='Last Name'></Form.Control>
+                                </Form.Group> 
 
-                   <div className='form-class'>
-                        <form>
-                            <div className ='form-sec-1'>
-                                <label id='fname'>First Name:</label><br></br>
-                                <input type= 'text' id='fname'/><br></br>
+                                <Form.Group  controlId='FormBasicEmail'>
+                                    <Form.Label>Email</Form.Label>
+                                    <Form.Control type='email' placeholder='Email'></Form.Control>
+                                </Form.Group> 
+                            </Col>
 
-                                <label id='Lname'>Last Name:</label><br></br>
-                                <input type= 'text' id='Lname'/><br></br>
+                            <Col className='wid' fluid md={12}>
+                                    <Form.Group   controlId='exampleForm.ControlTextArea'>
+                                        <Form.Label>Message:</Form.Label>
+                                        <Form.Control as='textarea' rows ='4'  ></Form.Control>
+                                    </Form.Group> 
+                                    <Button className='m-auto'>Send Message</Button>
+                            </Col>
+                        </Row>
+                 </Form> 
+                </Col>
+                
+            
+                
 
-                                <label id='email'>Email:</label><br></br>
-
-                                <input type= 'text' id='email'/><br></br>
-                            </div>
-
-                            <div className='form-sec-2'>
-                                <label for = 'text'>Message:</label><br></br>
-                                <textarea id='text' placeholder='Message'></textarea> <br></br>
-
-                                <button className='btn'>Send</button>
-                            </div>
-                        </form>
-                    </div>  
-                </div>
-
-
-            </div>
-
-
+           
+            </Row>
             <Footer/>
-            </section>
+            </Row>
+            
+            </Container>   
         )
     }
 

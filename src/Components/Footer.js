@@ -1,22 +1,28 @@
 import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { HashLink as Link} from 'react-router-hash-link'
+import { BrowserRouter as Router  } from 'react-router-dom' 
+import {Navbar, Nav} from 'react-bootstrap'
  function Footer() {
     return (
-        <div  className='footer'>
-            <nav className='footer-nav'>
-                <ul>
-                  <li><button> @ 2020 Samuel Mwangi</button></li>
-                 
-                </ul>
-            </nav>
-            <nav className='footer-nav'>
-                <ul>
-                  <li><a href ='https://web.facebook.com/samuel.w.mwangi/'>Facebook</a></li>
-                  <li><a href ='https://www.linkedin.com/in/samuel-w-mwangi-63676a38/'>Linkend</a></li>
-                  <li><a href ='https://github.com/SAWAMWA/'>Github</a></li>
-                </ul>
-            </nav>
-        </div>
+        <Router>
+        <Navbar bg="success">
+                <Navbar.Brand style={{color:'#ffff'}} >
+                    @ Samuel Mwangi 2020 |
+                    <Link to='/Main/#main' className='btn'><span>Home</span></Link> 
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+          
+            <Navbar.Collapse>
+                <Nav className= "justify-content-end"  style={{width:'100%'}} >
+                  <Nav.Link style={{color:'#ffff'}} href ='https://web.facebook.com/samuel.w.mwangi/'>Facebook</Nav.Link>
+                  <Nav.Link style={{color:'#ffff'}} href ='https://www.linkedin.com/in/samuel-w-mwangi-63676a38/'>Linkend</Nav.Link>
+                  <Nav.Link style={{color:'#ffff'}} href ='https://github.com/SAWAMWA/'>Github</Nav.Link>
+                </Nav>
+             </Navbar.Collapse>
+       </Navbar>
+       </Router>
     )
 }
 export default Footer
