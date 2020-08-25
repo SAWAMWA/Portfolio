@@ -24,7 +24,7 @@ class Main  extends Component {
                      <div className='details'>
                         <h2>Samuel W. Mwangi</h2>
                         <h3 className='title'> Web App Developer</h3>
-                        <span className= 'subtitle'>Frontend and Backend developer who is focused on writting clean code </span><br></br>
+                        <p className= 'subtitle'>Frontend and Backend developer who is focused on writting clean code </p><br></br>
                         <Link to='/About/#section1' className='btn'><Button>More</Button></Link>
                     </div>
                 </Col>
