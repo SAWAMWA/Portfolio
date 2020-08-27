@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router  } from 'react-router-dom' 
 import covid from './../assets/covid.jpg'
 import farmedge from './../assets/farmedge.jpg' 
-import logo from './../assets/logo.png' 
+import profile from './../assets/profile.jpg' 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Row, Col, Card,  Nav, Button} from 'react-bootstrap'
 
@@ -55,7 +55,7 @@ class Project extends Component {
                 </Col>
                 <Col>
                 <Card style={ {width:'18rem', marginLeft:'auto', marginRight:'auto'}}>
-                    <Card.Img variant ='top' src={logo.png}></Card.Img>
+                    <Card.Img variant ='top' src={profile}></Card.Img>
                     <Card.Body>
                         <Card.Title style={{color:'#3e3636'}} >My Portfolio</Card.Title>
                         <Card.Text style={{color:'#3e3636'}}>
