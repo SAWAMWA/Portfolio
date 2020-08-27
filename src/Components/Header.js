@@ -14,7 +14,7 @@ class Header extends Component {
                     <Navbar.Brand style={{color:' rgb(226, 8, 179)'}} as ={Link} to='/Main/#main'> <strong><u>SAMUEL</u></strong></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-                    <Navbar.Collapse id="basic-navbar-nav" >
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav  className= "justify-content-end"  style={{width:'100%'}}>
                             <Nav.Link as={Link} to= '/Main/#main'><Button className='primary'>Home</Button></Nav.Link>
                             <Nav.Link as={Link} to='/About/#section1'><Button className='primary'>About me</Button></Nav.Link>
