@@ -8,14 +8,14 @@ import {Container, Button, Row, Col} from 'react-bootstrap'
     render() {
         return (
     <Router>
-    <Container  >
-        <Row className="justify-content-xl-center" xs={1} sm={1} md={1} id='section1'>
+    <Container className="justify-content-xl-center" >
+        <Row  xs={1} sm={1} md={1} id='section1'>
             
                 <div className='m-auto text-center '> 
                     <Col> <h1 style={{color:' rgb(226, 8, 179)'}}><u>About</u> Me</h1></Col> 
                 </div>
 
-            <Row className= "justify-content-sm-center" xs={1} sm={1} md={2} >
+            <Row className= "justify-content-smm-center" xs={1} sm={1} md={2} >
               
                 <Col className=' text-left' style={{marginLeft:'auto'}}  xs={12} md={8}>
                     <h2 className='text-center' style={{color:' rgb(226, 8, 179)'}}><u><strong>Small story about me</strong></u></h2>

@@ -20,7 +20,7 @@ body{
   display: flex;
   
   color:rgb(253, 251, 251);
-  background-color: rgb(117, 97, 97);
+  background-image: url(./assets/background\ .png);
 
   justify-content: space-between;
   flex-grow: 1;
@@ -42,7 +42,7 @@ body{
  
   display: flex;
  color: white;
- background-color: rgb(105, 84, 84);
+ background-image: url(./assets/background\ .png);
   justify-content: space-between;
   flex-grow: 1;
 }
@@ -52,7 +52,7 @@ body{
   display: flex;
  color: white;
 
- background-color: rgb(105, 84, 84);
+ background-image: url(./assets/background\ .png);
   justify-content: space-between;
   flex-grow: 1;
 }
@@ -62,7 +62,8 @@ body{
   display: flex;
  color: white;
  border: wheat;
- background-color: rgb(105, 84, 84);
+ background-image: url(./assets/background\ .png);
+
   justify-content: space-between;
   flex-grow: 1;
 }
@@ -71,13 +72,13 @@ body{
   
   display: flex;
  color: white;
- background-color: rgb(99, 78, 78);
+ background-image: url(./assets/bluetrianglify.jpg);
   justify-content: space-between;
   flex-grow: 1;
 
 }
 .Form{
-  background-color: rgb(14, 20, 20);
+  
   border-radius: 20px;
   border: wheat;
 }

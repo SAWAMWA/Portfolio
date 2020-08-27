@@ -15,13 +15,13 @@ import {Button, Form, Container, Row, Col } from 'react-bootstrap'
            <Row xs={1} sm={2} md={2}>
 
                <Col className='m-auto text-center' md={6} style={{fontSize:'2vw'}}>
-                   <div style={ {width:'18rem', marginLeft:'auto', marginRight:'auto'}}><label>Contact Information:</label></div> 
-                 <div style={ {marginLeft:'auto', marginRight:'auto'}}> 
+                   <div style={ {width:'18rem', marginLeft:'auto', marginRight:'auto' , color:'blue'}}><label>Contact Information:</label></div> 
+                 <div style={ {marginLeft:'auto', marginRight:'auto', color:'blue'}}> 
                    <h4 style={{fontSize:'2vw'}} >P.O Box 2 10213 Murang'a</h4>
                    <p>Phone: +254725347787</p>
                    <p>Email: smlmwangi@gmail.com</p>
                    <p>Website:https://samuelmwangi.netlify.app/ </p>
-                   </div> 
+                </div> 
                </Col>
                
                <Col className='m-auto' md={6}>
