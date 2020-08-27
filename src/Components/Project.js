@@ -13,7 +13,7 @@ class Project extends Component {
         return (
             <Router>
             <Container >
-            <Row className="justify-content-xs-center"  xs={1} sm={1} md={1} id={'project'}> 
+            <Row className="justify-content-x-center"  xs={1} sm={1} md={1} id={'project'}> 
             <       div className=' text-center '> 
                     <Col><u> <h1 style={{color:' rgb(226, 8, 179)'}}>Projects</h1></u></Col> 
                 </div>
@@ -72,6 +72,7 @@ class Project extends Component {
                 </Row> 
                 </Row>
             </Container>
+            <hr></hr>
          </Router>
         )
     }

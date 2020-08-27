@@ -6,15 +6,15 @@ import { HashLink as Link} from 'react-router-hash-link'
 import { BrowserRouter as Router  } from 'react-router-dom' 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Row, Col} from 'react-bootstrap'
-
+import Header from './Header'
 class Main  extends Component {
     render() {
         return (
         
           <Router>
-            
-            <Container >
           
+            <Container >
+            <Header />
             <Row  className="justify-content-md-center  " xs={1} sm={2} md={2} id={'main'}>
            
           

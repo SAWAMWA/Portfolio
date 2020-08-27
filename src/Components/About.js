@@ -17,9 +17,9 @@ import {Container, Button, Row, Col} from 'react-bootstrap'
 
             <Row className= "justify-content-sm-center" xs={1} sm={1} md={2} >
               
-                <Col className=' text-center'  xs={12} md={8}>
+                <Col className=' text-left' style={{marginLeft:'auto'}}  xs={12} md={8}>
                     <h2 className='text-center' style={{color:' rgb(226, 8, 179)'}}><u><strong>Small story about me</strong></u></h2>
-                    <p style={{fontSize:'2vw'}}>I always love designing and creating solutions to problems using tech 
+                    <p style={{fontSize:'2vw', marginLeft:'auto'}}>I always love designing and creating solutions to problems using tech 
                         and so Tech is a passion of mine. I enjoy nothing more than learning the trends the technology is taking
                          and also developing a solution that work.
                     </p>
@@ -30,11 +30,25 @@ import {Container, Button, Row, Col} from 'react-bootstrap'
                     even in a very stressful situation. finally, I always wanted to work in an environment 
                     where I can innovate and find my own solutions to challenge.
                     </p>
-                    <Link to='/Project/#project' className='btn'><Button>Projects</Button></Link>
+                    <h2 className='text-center' style={{color:' rgb(226, 8, 179)'}}><u><strong>Top skills</strong></u></h2>
+                    <ul className='skills' style={{fontSize:'2vw'}} >
+                          
+                                <li> Solving I.T. related Software and Hardware issues </li>
+                                <li>Conducts training on basic usage of Computer </li>
+                                <li>Networking </li>
+                                <li>User Support </li>
+                                
+                     </ul>
+                   
+                    
+                    
+               
+                   
                 </Col>
 
                 <Col className=' text-left' md={4}  >
-                    <h2>Tech stack</h2>
+                    
+                    <h2 className='text-left' style={{color:' rgb(226, 8, 179)'}}><u><strong>Tech stack</strong></u></h2>
                     <div className='stack-skills'>
                         <Row>
                         <ul className='skills' style={{fontSize:'2vw'}} >
@@ -53,8 +67,9 @@ import {Container, Button, Row, Col} from 'react-bootstrap'
                     </div>  
                         
                 </Col>
-            </Row>
 
+            </Row>
+          <Link to='/Project/#project' className='btn'><Button>Projects</Button></Link>
         </Row>
       
         </Container>

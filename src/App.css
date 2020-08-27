@@ -39,7 +39,7 @@ body{
   align-items:start;
 }
 .justify-content-sm-center{
-  height: 100vh;
+ 
   display: flex;
  color: white;
  background-color: rgb(105, 84, 84);
@@ -58,7 +58,7 @@ body{
 }
 
 .justify-content-x-center{
-  height: 100vh;
+
   display: flex;
  color: white;
  border: wheat;
@@ -68,7 +68,7 @@ body{
 }
 
 .justify-content-xx-center{
-  height: 100vh;
+  
   display: flex;
  color: white;
  background-color: rgb(99, 78, 78);
