@@ -13,10 +13,12 @@ class Main  extends Component {
         
           <Router>
             
-            <Container  >
-            
+            <Container >
+          
             <Row  className="justify-content-md-center  " xs={1} sm={2} md={2} id={'main'}>
-            
+           
+          
+           
                 <Col className='m-auto' md={4}> 
                     <img src={samuel} className='d-block mx-auto img-fluid w-50'  alt='SAM' style={{}}/>
                 </Col>

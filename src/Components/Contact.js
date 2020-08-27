@@ -14,12 +14,14 @@ import {Button, Form, Container, Row, Col } from 'react-bootstrap'
                 </div>
            <Row xs={1} sm={2} md={2}>
 
-               <Col className='m-auto text-center' md={6}>
-                   <div><label>Contact Information:</label></div> 
-                   <h4>P.O Box 2 10213 Murang'a</h4>
+               <Col className='m-auto text-center' md={6} style={{fontSize:'2vw'}}>
+                   <div style={ {width:'18rem', marginLeft:'auto', marginRight:'auto'}}><label>Contact Information:</label></div> 
+                 <div style={ {marginLeft:'auto', marginRight:'auto'}}> 
+                   <h4 style={{fontSize:'2vw'}} >P.O Box 2 10213 Murang'a</h4>
                    <p>Phone: +254725347787</p>
                    <p>Email: smlmwangi@gmail.com</p>
                    <p>Website:https://samuelmwangi.netlify.app/ </p>
+                   </div> 
                </Col>
                
                <Col className='m-auto' md={6}>
@@ -45,18 +47,13 @@ import {Button, Form, Container, Row, Col } from 'react-bootstrap'
                             <Col className='wid' fluid md={12}>
                                     <Form.Group   controlId='exampleForm.ControlTextArea'>
                                         <Form.Label>Message:</Form.Label>
-                                        <Form.Control as='textarea' rows ='4'  ></Form.Control>
+                                        <Form.Control as='textarea' rows ='3'  ></Form.Control>
                                     </Form.Group> 
                                     <Button className='m-auto'>Send Message</Button>
                             </Col>
                         </Row>
                  </Form> 
                 </Col>
-                
-            
-                
-
-           
             </Row>
             <Footer/>
             </Row>

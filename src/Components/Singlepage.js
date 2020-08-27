@@ -10,8 +10,7 @@ import Project from './Project'
     return (
         
             <div>
-                <Header/>
-                
+                 <Header />
                 <Main></Main>
                 <About/>
                 <Project></Project>
