@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { HashLink as Link} from 'react-router-hash-link'
 import { BrowserRouter as Router} from 'react-router-dom' 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Navbar, Nav, Container, Button} from 'react-bootstrap'
+import {Navbar, Nav, Button} from 'react-bootstrap'
 
 class Header extends Component {
     render() {

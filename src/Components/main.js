@@ -7,6 +7,7 @@ import { BrowserRouter as Router  } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import Header from './Header'
+
 class Main  extends Component {
     render() {
         return (
