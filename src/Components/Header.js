@@ -15,7 +15,7 @@ class Header extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <hr></hr>
                     <Navbar.Collapse id="basic-navbar-nav" >
-                        <Nav  className= "justify-content-end"  style={{width:'100%'}}>
+                        <Nav  className= "justify-content-center"  style={{width:'100%'}}>
                             <Nav.Link as={Link} to= '/Main/#main'><Button className='primary'>Home</Button></Nav.Link>
                             <Nav.Link as={Link} to='/About/#section1'><Button className='primary'>About me</Button></Nav.Link>
                             <Nav.Link as={Link} to='/Project/#project'><Button className='primary'>Project </Button></Nav.Link>

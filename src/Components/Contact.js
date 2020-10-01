@@ -6,12 +6,16 @@ import {Button, Form, Container, Row, Col } from 'react-bootstrap'
  class Contact extends Component {
     render() {
         return (
+            <div>
+                    <Row>
+                    <Col>
+                        <div className='about'> 
+                            <h1 style={{color:' rgb(226, 8, 179)'}}><u>Contacts</u></h1>
+                        </div>
+                    </Col>
+                </Row>
             <Container>
             <Row className="justify-content-xx-center"  xs={1} sm={1} md={1} id ={'contact'}>
-              
-               <div className='m-auto text-center '> 
-                    <Col> <h1 style={{color:' rgb(226, 8, 179)'}}><u>Contact</u> Me</h1></Col> 
-                </div>
            <Row xs={1} sm={2} md={2}>
 
                <Col className='m-auto text-center' md={6} style={{fontSize:'2vw'}}>
@@ -58,7 +62,8 @@ import {Button, Form, Container, Row, Col } from 'react-bootstrap'
             <Footer/>
             </Row>
             
-            </Container>   
+            </Container> 
+            </div>     
         )
     }
 
