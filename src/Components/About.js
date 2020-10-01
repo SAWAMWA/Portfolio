@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { HashLink as Link} from 'react-router-hash-link'
+//import { HashLink as Link} from 'react-router-hash-link'
 import { BrowserRouter as Router  } from 'react-router-dom' 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Button, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 
  class About extends Component {
     render() {
