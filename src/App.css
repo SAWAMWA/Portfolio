@@ -51,8 +51,6 @@ body{
   
   display: flex;
  color: white;
- 
- padding-right: 200px;
  background-image: url(./assets/background\ .png);
   justify-content: space-between;
   flex-grow: 1;
