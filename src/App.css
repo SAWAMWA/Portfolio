@@ -51,7 +51,7 @@ body{
   
   display: flex;
  color: white;
- padding: 200px;
+ 
  padding-right: 200px;
  background-image: url(./assets/background\ .png);
   justify-content: space-between;
@@ -59,7 +59,7 @@ body{
 }
 
 .justify-content-x-center{
-padding: 20px;
+
   display: flex;
  color: white;
  border: wheat;
