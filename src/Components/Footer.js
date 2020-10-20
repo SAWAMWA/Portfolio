@@ -2,6 +2,8 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashLink as Link} from 'react-router-hash-link'
 import { BrowserRouter as Router  } from 'react-router-dom' 
+import {FaFacebook, FaLinkedin} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 import {Navbar, Nav} from 'react-bootstrap'
  function Footer() {
     return (
@@ -16,9 +18,18 @@ import {Navbar, Nav} from 'react-bootstrap'
           
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className= "justify-content-end"  style={{width:'100%'}} >
-                  <Nav.Link style={{color:'#ffff'}} href ='https://web.facebook.com/samuel.w.mwangi/'>Facebook</Nav.Link>
-                  <Nav.Link style={{color:'#ffff'}} href ='https://www.linkedin.com/in/samuel-w-mwangi-63676a38/'>Linkend</Nav.Link>
-                  <Nav.Link style={{color:'#ffff'}} href ='https://github.com/SAWAMWA/'>Github</Nav.Link>
+                  <Nav.Link 
+                            style={{color:'#ffff'}} 
+                            href ='https://web.facebook.com/samuel.w.mwangi/'>
+                                <FaFacebook color='white' size='1.5rem'/> Facebook</Nav.Link>
+                  <Nav.Link 
+                            style={{color:'#ffff'}} 
+                            href ='https://www.linkedin.com/in/samuel-w-mwangi-63676a38/'>
+                                <FaLinkedin color='white' size='1.5rem'/> Linkend</Nav.Link>
+                  <Nav.Link 
+                            style={{color:'#ffff'}} 
+                            href ='https://github.com/SAWAMWA/'>
+                                <FaGithub color='white' size='1.5rem'/> Github</Nav.Link>
                 </Nav>
              </Navbar.Collapse>
        </Navbar>
